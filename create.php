@@ -18,7 +18,7 @@ if (!empty($_POST)) {
     $stmt = $pdo->prepare('INSERT INTO contacts VALUES (?, ?, ?, ?, ?, ?)');
     $stmt->execute([$id, $name, $email, $phone, $title, $created]);
     // Output message
-    $msg = 'Created Successfully!';
+    $msg = 'Adiconado com sucesso!';
 }
 
 
