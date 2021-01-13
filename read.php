@@ -23,7 +23,7 @@ $num_contacts = $pdo->query('SELECT COUNT(*) FROM contacts')->fetchColumn();
 <?= template_header('Read') ?>
 
 <div class="content read">
-    <h2>Read Contacts</h2>
+    <h2>Ver Contatos</h2>
     <a href="create.php" class="create-contact">Create Contact</a>
     <table>
         <thead>
